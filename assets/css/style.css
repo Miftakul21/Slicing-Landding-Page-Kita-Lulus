@@ -1,0 +1,422 @@
+/* navbar */
+.navbar {
+  padding: 10px 0;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+ul li .nav-link {
+  font-size: 1.3rem;
+  margin-right: 12px;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.btn-pasang-loker {
+  display: inline-block;
+  padding: 12px 32px !important;
+  padding-left: 40px;
+  background-color: orange;
+  color: #fff !important;
+  font-size: 1;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.2s ease-in;
+}
+
+.btn-pasang-loker:hover {
+  background-color: rgba(0, 0, 0, 0.816);
+  color: #fff;
+  transition: 0.2s ease-in;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding: 80px;
+  background: #d2e7f8;
+}
+
+.text-region {
+  display: inline-block;
+  padding: 12px;
+  font-family: 500;
+  background: #ffeec4;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+
+.text-content {
+  font-size: 3rem;
+}
+
+.text-blue {
+  color: #1270b7;
+}
+
+.text-info-jumbotron {
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.image-kominfo {
+  width: 40px;
+}
+
+.btn-cari-loker {
+  display: inline-block;
+  padding: 18px 35px !important;
+  background: rgba(87, 87, 234, 0.796);
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+}
+
+.btn-cari-loker:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.3s ease-in;
+}
+
+.btn-rekruter {
+  display: inline-block;
+  padding: 18px 35px !important;
+  background: orange;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+}
+
+.btn-rekruter:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.3s ease-in;
+}
+
+.hero-image {
+  width: 600px;
+}
+
+/* Content */
+.bar {
+  width: 60px;
+  height: 12px;
+  background: lightblue;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.text-pelamar,
+.text-perusahaan,
+.text-kerja {
+  font-size: 32px !important;
+}
+
+.icon-plus {
+  display: inline;
+  color: blue;
+  font-weight: bold;
+}
+
+.content .row h6 {
+  font-size: 16px !important;
+  font-weight: 500;
+}
+
+/* Content List2 */
+.text-content-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.text-cari-loker {
+  margin-bottom: 10px;
+}
+
+.bar-2 {
+  width: 60px;
+  height: 12px;
+  background: lightblue;
+}
+
+.content-list2 li {
+  list-style: none;
+  margin-left: -30px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.content2-link-button img {
+  width: 190px;
+  height: 100%;
+}
+.content-3 .text-rekrut-karyawan {
+  margin-bottom: 10px;
+}
+
+.content-3 .text-rekrut-karyawan h6 {
+  color: orange;
+}
+
+.content-3 .text-rekrut-karyawan .bar-3 {
+  width: 60px;
+  height: 10px;
+  background: orange;
+}
+
+.text-content-3 {
+  font-family: "Poppins", sans-serif;
+  font-family: 500;
+}
+
+.content-3 ul li {
+  list-style: none;
+  margin-left: -30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.content-3 .button-dashboard-perusahaan {
+  display: inline-block;
+  padding: 14px 32px !important;
+  text-decoration: none;
+  background: orange;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.content-join a {
+  display: inline-block;
+  padding: 10px 32px;
+  background: #5ebaf7;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Content Join */
+.content-join .row {
+  padding: 30px;
+  background: #5ebaf7;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.content-join .row .col-xl-6 .bg-work {
+  /* display: none; */
+  width: 600px !important;
+}
+
+.content-join .container-profile-card {
+  display: flex;
+  gap: 15px;
+}
+
+.content-join .initial-name {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  background: orange;
+}
+
+.content-join .date {
+  margin-top: -10px;
+  font-size: 12px;
+  color: rgb(195, 182, 182);
+}
+
+.scroll-card {
+  display: none;
+}
+
+.content-question .container-text-title h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.content-question .container-text-title h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer h6 {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
+
+footer ul li {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: -30px;
+  color: rgb(85, 81, 81);
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width: 600px) {
+  .text-region {
+    font-size: 10px !important;
+  }
+
+  .text-content {
+    font-size: 1.3rem !important;
+  }
+
+  .text-info-jumbotron {
+    font-size: 10px !important;
+  }
+
+  .image-kominfo {
+    width: 35px;
+  }
+
+  .btn-cari-loker {
+    padding: 0 20px;
+    font-size: 14px !important;
+    white-space: nowrap;
+    margin-bottom: 8px;
+  }
+
+  .btn-rekruter {
+    padding: 0 20px;
+    font-size: 14px !important;
+    white-space: nowrap;
+  }
+
+  .hero-image {
+    margin-top: 10px;
+    width: 250px !important;
+  }
+
+  .content .mb-md-5 {
+    margin-bottom: 20px;
+  }
+
+  .content .col-sm-12 {
+    text-align: center;
+  }
+
+  .content-2 .row .col-4 img {
+    width: 300px;
+  }
+
+  .content-2 .text-cari-loker div {
+    height: 12px;
+  }
+
+  .content-2 .col-sm-6 img {
+    width: 380px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .content-3 .row img:nth-child(1) {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .content-join .row .col-6 .bg-work {
+    width: 300px !important;
+  }
+
+  .scroll-card {
+    /* height: 600px; */
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;
+  }
+
+  .content-join .list-quetion {
+    display: none;
+  }
+
+  footer h6 {
+    width: 400px;
+    text-align: left;
+  }
+}
+
+/* Responsive Tablet */
+@media only screen and (max-width: 850px) {
+  .text-region {
+    font-size: 0.8rem;
+  }
+
+  .text-content {
+    font-size: 2rem;
+  }
+
+  .text-info-jumbotron {
+    font-size: 0.8rem;
+  }
+
+  .btn-cari-loker {
+    padding: 10px 90px !important;
+    font-size: 14px;
+  }
+
+  .btn-rekruter {
+    padding: 10px 70px !important;
+    font-size: 14px;
+  }
+
+  .hero-image {
+    /* display: none; */
+    width: 350px;
+  }
+
+  .text-content-2 {
+    font-size: 18px;
+  }
+
+  .content-list2 li {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .content2-link-button img {
+    width: 85px !important;
+    height: 50px !important;
+  }
+
+  .content-2 .text-find-link {
+    font-size: 16px;
+  }
+
+  .content-2 .col-md-6 img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .content-list3 {
+    font-size: 14px;
+    /* white-space: nowrap; */
+  }
+
+  .content-3 .row img:nth-child(1) {
+    display: block;
+    margin: 0 auto;
+    width: 350px !important;
+  }
+}
